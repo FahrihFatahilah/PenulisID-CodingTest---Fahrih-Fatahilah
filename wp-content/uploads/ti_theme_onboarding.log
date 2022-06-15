@@ -1,0 +1,18 @@
+[13/Jun/2022:04:38:33] (I): WordPress Instance Info:
+[13/Jun/2022:04:38:33] (I): Home URL : http://localhost:8080
+[13/Jun/2022:04:38:33] (I): Site URL : http://localhost:8080
+[13/Jun/2022:04:38:33] (I): WordPress Version : 6.0
+[13/Jun/2022:04:38:33] (I): Onboarding Version : 1.1.22
+[13/Jun/2022:04:38:33] (I): Multisite : No
+[13/Jun/2022:04:38:33] (I): Server Info : Apache/2.4.53 (Debian)
+[13/Jun/2022:04:38:33] (I): PHP Version : 7.4.30
+[13/Jun/2022:04:38:33] (I): HTTPS : No
+[13/Jun/2022:04:38:33] (I): PHP Max Execution Time : 1800
+[13/Jun/2022:04:38:33] (I): PHP Max Input Vars : 1000
+[13/Jun/2022:04:38:33] (I): Max Upload Size : 1073741824
+[13/Jun/2022:04:38:33] (I): Plugins:
+[13/Jun/2022:04:38:33] (I): [PLUGIN] Page Builder by SiteOrigin : v2.16.13 (SiteOrigin)
+[13/Jun/2022:04:38:33] (I): [PLUGIN] Templates Patterns Collection : v1.1.22 (ThemeIsle)
+[13/Jun/2022:04:38:33] (I): [PLUGIN] Orbit Fox Companion : v2.10.12 (Themeisle)
+[13/Jun/2022:04:38:33] (I): [PLUGIN] WP File Manager : v7.1.5 (mndpsingh287)
+[13/Jun/2022:04:38:33] (I): [PLUGIN] Wp Maximum Upload File Size : v1.0.9 (CodePopular)

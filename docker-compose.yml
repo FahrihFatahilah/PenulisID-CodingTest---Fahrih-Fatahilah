@@ -1,0 +1,31 @@
+version: '3.1'
+
+services:
+
+  wordpress:
+    image: wordpress
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: userpenulis
+      WORDPRESS_DB_PASSWORD: 12345678
+      WORDPRESS_DB_NAME: db_penulisblogging
+    volumes:
+      - wordpress:/var/www/html/blog
+
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: db_penulisblogging
+      MYSQL_USER: userpenulis
+      MYSQL_PASSWORD: 12345678
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+    volumes:
+      - db:/var/lib/mysql
+
+volumes:
+  wordpress:
+  db:
